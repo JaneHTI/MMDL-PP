@@ -9,4 +9,5 @@ conda activate MMDLPP
 - checkpoints  # Trained model
 - utils        # Function for result analysis.
 
-Executing the script demo_main.py directly enables evaluation of the model—pretrained on the ABCD dataset—on the provided sample data; all required configuration parameters are pre-specified within the source code.
+3. Demo
+Executing the script demo_main.py directly enables evaluation of the pretrained model—trained on the ABCD dataset—on the provided sample data. All required configuration parameters are pre-specified within the source code. The output includes the probability of psychopathology risk for each sample, along with aggregated statistical results stored in the checkpoint file.
